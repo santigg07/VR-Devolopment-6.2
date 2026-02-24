@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: SpaceWarpFeature Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.SpaceWarpFeature
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Application SpaceWarp
+  version: 1.0.0
+  featureIdInternal: com.unity.openxr.feature.spacewarp
+  openxrExtensionStrings: XR_FB_space_warp
+  company: Unity
   priority: 0
   required: 0
   m_UseRightHandedNDC: 0
@@ -218,6 +218,7 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
+  - {fileID: -8061516886595781804}
   - {fileID: 642490259205442117}
   - {fileID: 136382531965111687}
   - {fileID: 4304582544117189683}
